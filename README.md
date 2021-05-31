@@ -1,1 +1,1 @@
-# Projeto-Horrorflix
+# Projeto HorrorFlix
