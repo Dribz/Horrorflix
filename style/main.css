@@ -1,0 +1,159 @@
+:root{
+    --vermelho:#E50914;
+    --preto: #141414;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body {
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.2;
+}
+
+header .container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 50px;
+    margin-top: 10px;
+
+}
+
+header .logo {
+    color: var(--vermelho);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+header nav a:hover {
+    color: #AAA;
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    height: 600px;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/a-hora-do-pesadelo-capa.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.filme-principal .titulo-filme-principal {
+
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao1 {
+    background-color: rgb(248, 248, 248);
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:bolder;
+    text-rendering: auto;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover{
+    background-color:lightgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.botao1 i{
+    margin-right: 5px;
+}
+
+.botao2 {
+    background-color: rgba(109,109,101,0.7);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:bolder;
+    text-rendering: auto;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease all;
+    opacity: 1;
+}
+
+.botao2:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.botao2 i{
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-filme{
+    height:100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 10px;
+    margin-left:40px;
+}
+
+.title-owl {
+    margin-bottom: 10px;
+
+}
